@@ -30,7 +30,7 @@ app.MapGet("/", () => Results.Content(@"<!DOCTYPE html>
 <body>
     <div class='container'>
         <h1>Lottery Numbers Generator</h1>
-        <button onclick='generateNumbers()'>Go for it !</button>
+        <button onclick='generateNumbers()'>Generate Numbers!</button>
         <div class='numbers' id='numbers'></div>
     </div>
 
