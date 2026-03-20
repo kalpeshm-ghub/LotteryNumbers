@@ -12,7 +12,7 @@ app.MapGet("/", () => Results.Content(@"<!DOCTYPE html>
 <head>
     <title>Lottery Number Generator</title>
     <style>
-        body { font-family: Arial; padding: 50px; background: linear-gradient(135deg, #e9dbf5 0%, #a682ca 100%); }
+        body { font-family: Arial; padding: 50px; background: linear-gradient(135deg, #b66ff5 0%, #975dd1 100%); }
         .container { background: white; padding: 40px; border-radius: 15px; max-width: 500px; margin: 0 auto; box-shadow: 0 10px 30px rgba(0,0,0,0.3); text-align: center; }
         h1 { color: #333; margin-bottom: 30px; }
         button { background: #667eea; color: white; border: none; padding: 15px 40px; font-size: 18px; border-radius: 8px; cursor: pointer; }
